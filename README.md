@@ -14,4 +14,4 @@ Projektet nyttjar även SCSS-moduler för tydligare struktur och bättre utveckl
 - För navigationslänkarna används useMemo, vilket är Reacts inbyggda hook för att skippa omläsning vid varje re-render. Om \<Header /> skulle renderas om, skulle links inte sättas om, vilket sparar (i detta fallet minimal) prestanda. Detta är en bra praxis för alla konstanter som faktiskt ska vara _konstanta_ i React.
 
 ## Hur man kör projektet
-Först krävs att man kör `npm ci` för att installera alla node_modules. För att köra projektet i devmiljö använder man `npm run dev`. Om man vill bygga för produktion använder man `npm run build`.
+Först krävs att man kör `npm ci` för att installera alla node_modules. För att köra projektet i devmiljö använder man `npm run dev`. Om man vill bygga för produktion använder man `npm run build`.# Shahin-Individuellt-projekt-React
