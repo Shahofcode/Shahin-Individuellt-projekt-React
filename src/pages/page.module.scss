@@ -1,0 +1,21 @@
+.pageWrapper {
+    margin-top:10px;
+    width:100%;
+    background-color:#FFF;
+    border-radius:5px;
+    color:#000;
+    padding:15px;
+
+    h1 {
+        font-size:48px;
+        margin-top:0;
+        margin-bottom:20px;
+        border-bottom:4px solid #CCC;
+        max-width:max-content;
+    }
+
+    p {
+        border-left:4px solid #CCC;
+        padding:5px 10px;
+    }
+}

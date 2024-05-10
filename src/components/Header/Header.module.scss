@@ -1,0 +1,22 @@
+header {
+    width:100%;
+    background-color:#FFF;
+    border-radius:5px;
+    position:relative;
+
+    ul {
+        list-style:none;
+        display:flex;
+        padding:10px 10px;
+        
+        li {
+            padding:10px;
+            border-right:1px solid #CCC;
+            
+            a {
+                color:#000;
+                text-decoration:none;
+            }
+        }
+    }
+}

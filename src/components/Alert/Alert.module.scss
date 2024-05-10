@@ -1,0 +1,19 @@
+.alert {
+    width:700px;
+    border:1px solid green;
+
+    &> * {
+        padding:10px;
+    }
+    .alertHeading {
+        width:100%;
+        color:#FFF;
+        background-color:green;
+        margin-top:0;
+    }
+
+    .alertText {
+        background-color:#FFF;
+        border:none;
+    }
+}

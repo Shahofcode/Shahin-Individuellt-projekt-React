@@ -1,0 +1,30 @@
+.githubRepositoryWrapper {
+    margin-right:20px;
+    display:inline-block;
+
+    .githubRepository {
+        width:400px;
+        border-left:4px solid #CCC;
+        padding:5px 10px;
+        background-color:#FFF;
+        transition:background-color .5s;
+        cursor:pointer;
+
+        .githubRepositoryName {
+            font-weight:bold;
+        }
+        .githubRepositoryStars {
+            
+        }
+        .githubRepositoryUpdatedAt {
+
+        }
+        .githubRepositoryOwner {
+
+        }
+
+        &:hover {
+            background-color:#CCC;
+        }
+    }
+}

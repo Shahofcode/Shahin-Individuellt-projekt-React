@@ -1,0 +1,16 @@
+.buttonWrapper {
+    display:block;
+
+    .button {
+        padding:10px;
+        border-radius:3px;
+        outline:none;
+        border:1px solid #CCC;
+        transition:border .25s;
+        cursor:pointer;
+    
+        &:focus, &:focus-visible, &:hover {
+            border:1px solid blue;
+        }
+    }
+}

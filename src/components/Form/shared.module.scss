@@ -1,0 +1,46 @@
+.formInput {
+    display:inline-block;
+    border-left:4px solid #CCC;
+    padding:5px 10px;
+    margin-right:20px;
+    margin-bottom:10px;
+    vertical-align:top;
+    
+    label {
+        display:block;
+        font-weight:bold;
+        margin-bottom:5px;
+    }
+
+    input, textarea {
+        width:400px;
+        padding:10px;
+        border-radius:3px;
+        outline:none;
+        border:1px solid #CCC;
+        transition:border .25s;
+
+        &:is(input) {
+            height:40px;
+        }
+    
+        &:is(textarea) {
+            resize:none;
+            height:139px;
+        }
+
+        &:focus, &:focus-visible, &:hover {
+            border:1px solid blue;
+        }
+    }
+
+    &.formInputError {
+        input, textarea {
+            border:1px solid red;
+        }
+    }
+
+    .error {
+        border-left:4px solid red;
+    }
+}
